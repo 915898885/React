@@ -1,0 +1,17 @@
+init初始化
+	defaultProps（share）-run 1  getDefaultProps(){return{group:123}}->React.createClass()
+	针对一个类  只读
+	state ->getInitialState(){return{}}//es5   condtructor(){this.state={}}
+		->new Item()
+	针对一个实例  可写的
+mount组件的加载
+	willMount
+	render
+	didMount
+update n
+	will
+	did
+	
+unmount
+	componentWillunmount
+	
