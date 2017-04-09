@@ -1,0 +1,24 @@
+
+props:只读的//属性
+state:可写//状态
+
+
+1.尽量用props，组件无状态 no state <Item data={}/>  <div id="id001"></div>
+	<Item data group/>
+2.最小化state 
+
+3.props与state->计算过程放在render
+
+-------------------------------
+state.size=props.data.length;//X
+render(){
+	props.data.length;
+}
+
+state.len = 12;
+props.size=5;
+var result=len*size;
+render(){
+	var result=state.len*props.size;
+	return...
+}
